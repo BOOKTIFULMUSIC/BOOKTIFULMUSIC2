@@ -1,0 +1,153 @@
+
+#content{ 
+    width: 1120px;
+    height: 100%;
+    margin:auto;
+    padding-top:50px;
+}
+#section{ 
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom : 100px;
+    box-sizing: border-box;
+}
+#notice_menu{margin: auto; border-top:100px;}
+
+
+.men_index{width:200px; height:200px; margin: auto;}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+a>label:hover{
+    cursor: pointer;
+}
+
+
+
+#child_4, #child_1{
+    margin-top: -12px;
+    margin-left: 8px;
+}
+
+#child_2{
+    margin-left: 12px;
+}
+#child_3{
+    margin-left: 8px;
+}
+#menu_name{
+    margin: auto;
+}
+
+#title{
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top : 50px;
+}
+
+.notice_title{
+    width: 100%;
+    margin: auto;
+    
+}
+form{
+    margin: auto;
+    
+}
+
+
+#notice_text{
+    margin: auto;
+    /* background:  rgb(227, 233, 255);
+    border: 1px solid black; */
+    border-collapse: collapse;
+    width: 800px;
+}
+
+#notice_text tr:nth-child(1){
+    height: 45px;
+}
+
+#notice_text tr:nth-child(2){
+    height: 45px;
+}
+
+#notice_text tr:nth-child(3){
+    height: 45px;
+}
+
+#notice_text td{
+    border-bottom: 4px solid rgb(227, 233, 255);
+}
+
+.category{
+    text-align: center;
+    width: 15%;
+}
+
+#type_text{
+    text-align: center;
+}
+
+#writer_text{
+    text-align: center;
+}
+
+#title_text{
+    text-align: center;
+}
+
+#content_text{
+    height: 500px;
+    text-align: center;
+}
+input{
+    border: none;
+}
+
+#type_text input{
+    width: 95%;
+    box-sizing: border-box;
+}
+
+#writer_text input{
+    width: 95%;
+    box-sizing: border-box;
+}
+#title_text input{
+    width: 95%;
+    box-sizing: border-box;
+}
+#content_text textarea{
+    width: 100%;
+    height: 95%;
+    box-sizing: border-box;
+    resize: none;
+    border: 1px solid lightgray;
+}
+
+#end_btn{
+    text-align: center;
+}
+
+#end_btn button{
+    background: rgb(227, 233, 255);
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#end_btn button:hover{
+    cursor: pointer;
+    color: rgb(105,140,255);
+}
+

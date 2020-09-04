@@ -1,0 +1,299 @@
+#content{
+    width: 1120px;
+    margin: auto;
+    height: 100%;
+
+}
+#info1{
+    padding:0;
+    margin:0;
+    margin: 120px 0 40px 0;
+    width: 100%;
+    height: 340px;
+    border-bottom: 1px solid #ccc;
+
+}
+#info1 #p1{
+    background: rgb(227, 233, 255);
+    padding: 0;
+    margin: 0;
+    padding: 5px 0 5px 20px;
+    font-size:30px;
+    font-weight: 400;
+    border-bottom: 1px solid rgb(105,140,255);
+}
+#info1 #info_img1{
+    float: left;
+    width: 220px;
+    height: 220px;
+    margin: 30px 30px 0 50px;
+}
+
+#m_title{
+    margin-top: 28px;
+    float: left;
+    width: 350px;
+    padding: 0;
+}
+
+#m_title li{
+    list-style: none;
+    line-height: 56px;
+    font-size: 20px;
+
+}
+
+#m_title li:nth-child(1){
+    font-weight: 500;
+    font-size:28px;
+
+}
+#m_title li:nth-child(2){
+    color: gray;
+    float: left;
+}
+#m_title li:nth-child(3){
+    color: gray;
+    float: left;
+}
+#m_title li:nth-child(4){
+
+    color: gray;
+}
+#m_title li>a{
+    padding: 5px 10px 5px 10px;
+    border-radius: 12px;
+    background: rgb(227, 233, 255);
+    font-size:16px;
+}
+#m_title li:nth-child(6){
+    float: left;
+}
+
+li>#heart{
+    color: red;
+}
+
+li>#re{
+    color:gray;
+}
+
+
+#m_btn{
+    float:right;
+    margin: 205px 50px 0 0;
+}
+
+#likebtn{
+    border:1px solid #ccc;
+    background: white;
+    border-radius: 10px;
+    width: 60px;
+    height: 40px;
+    color: red;
+    font-size: 24px;
+    margin-right: 12px;
+}
+
+#info2{
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    height: 100%;
+}
+
+#info2 #p2{
+    padding: 0;
+    margin: 0;
+    padding: 5px 0 5px 20px;
+    font-size: 30px;
+    font-weight: 400;
+    border-bottom: 2px solid rgb(105,140,255);
+}
+#albuminfo{
+    box-sizing: border-box;
+    width: 100%;
+    height: 300px;
+    border-bottom: 1px solid #ccc;
+}
+#albuminfo img{
+    width: 180px;
+    height: 180px;
+    margin: 28px 50px 0 50px;
+    float: left;
+}
+#m_detail #p3{
+    padding: 0;
+    margin: 0;
+    padding: 45px 0 5px 20px;
+    font-size: 30px;
+    font-weight: 400;
+    border-bottom: 2px solid rgb(105,140,255);
+}
+#m_list{
+    margin-bottom: 200px;
+}
+#m_list #head{
+    width: 1040px;
+    height: 40px;
+    margin:auto;
+    margin:30px 0 0 20px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+#m_list #head li{
+    float: left;
+    list-style: none;
+    margin-top: 8px;
+}
+#m_list #head li:nth-child(1){
+    width: 10%;
+}
+#m_list #head li:nth-child(2){
+    width: 60%;
+    text-align: center;
+}
+#m_list #head li:nth-child(3){
+    width: 10%;
+}
+#m_list #head li:nth-child(4){
+    width: 10%;
+}
+#m_list #head li:nth-child(5){
+    width: 10%;
+}
+
+#m_list #list{
+    width: 1040px;
+    height: 60px;
+    margin:auto;
+    border-bottom: 1px solid #ccc;
+}
+
+
+#m_list #list li{
+    float: left;
+    list-style: none;
+    margin-top: 20px;
+}
+#m_list #list li:nth-child(1){
+    width: 10%;
+    float: left;
+    margin-left: 10px;
+}
+#m_list #list li:nth-child(2){
+    margin: 8px 0 0 30px;
+    width: 50%;
+}
+#m_list #list li:nth-child(3){
+    width: 10%;
+    margin-left: 55px;
+}
+#m_list #list li:nth-child(4){
+    width: 10%;
+    margin-left: 6px;
+}
+#m_list #list li:nth-child(5){
+    width: 5%;
+    margin:12px 0 0 7px;
+}
+
+#m_list #list #mplay{
+    border:0;
+    background: white;
+    font-size: 20px;
+    color: rgb(105, 140, 255);
+    font-weight: 400;
+}
+#reviews{
+    margin: 40px 0 120px 0;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+#reviews p{
+
+    padding: 0;
+    margin: 0;
+    padding: 5px 0 5px 20px;
+    font-size: 30px;
+    font-weight: 400;
+    border-bottom: 2px solid rgb(105,140,255);
+}
+
+#reviews #add{
+    width: 100%;
+    margin: auto;
+    height: 400px;
+    overflow:scroll;
+    overflow:auto;
+    overflow-x: hidden;
+    
+}
+
+#reviews #add ul{
+    height: 100px;
+    margin:auto;
+    padding:0;
+    margin: 20px 30px 20px 30px;
+    border-bottom: 1px solid #ccc;
+
+}
+#reviews #add ul li{
+    list-style: none;
+    float: left;
+    line-height: 28px;
+   
+}
+#reviews #add ul li:nth-child(1){
+    width: 10%;
+}
+#reviews #add ul li:nth-child(2){
+    width: 80%;
+}
+
+#reviews #add li p{
+    font-size: 16px;
+    border: 0;
+    background: white;
+    padding:0;
+}
+#reviews #add img{
+    width: 70px;
+    height: 70px;
+    margin-top: 5px;
+}
+
+#user_review{
+    height: 150px;
+    border-top: 1px solid #ccc;
+    width: 1080px;
+    margin: auto;
+
+}
+
+#user_review img{
+    width: 100px;
+    height: 100px;
+    padding: 22px 20px 0 20px;
+    float: left;
+}
+
+#user_review #review_text{
+    width: 800px;
+    height: 100px;
+    margin: 20px 20px 0 0;
+    float: left;
+    border: 1px solid #ccc;
+}
+
+#user_review #review_btn{
+    width: 100px;
+    height: 105px;
+    padding: 0;
+    margin: 20px 0 0 0;
+    border: 0;
+    background: rgb(227, 233, 255);
+    font-size: 20px;
+}

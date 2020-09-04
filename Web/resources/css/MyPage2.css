@@ -1,0 +1,227 @@
+#content{
+    height: 1900px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+#sub_menu{ height: 140px; margin-top: 60px;}
+#sub_menu a {
+	text-decoration: none;
+	color: black;
+}
+
+#sub_menu>ul{
+    width: 100%;
+	padding: 0;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+#sub_menu>ul>li {
+	display: inline-block;
+	box-sizing: border-box;
+	margin-right: 40px;
+}
+#sub_menu>ul li:nth-child(1){
+    font-size: 20px;
+}
+#sub_menu>ul li:nth-child(2){
+    font-size: 48px;
+    font-weight: 400px;
+	
+}
+#sub_menu>ul li:nth-child(3){
+	font-size: 20px;
+}
+#sub_menu>ul li:nth-child(4){
+	font-size: 20px;
+    margin-right: 0;
+}
+
+#con1{
+    margin: auto;  
+    background: rgb(250, 250, 255); 
+    height: 1600px; 
+    width: 1120px; 
+    position: relative;
+    
+    }
+
+.user_info{
+height: 300px;
+width: 100%;
+border-bottom: 1px solid gray;
+
+
+}
+
+.user_info>#photo{
+width:180px;
+height:180px;
+border-radius:50%;
+background: #C4C4C4;
+margin-top:60px;
+margin-left: 100px;
+position: absolute;
+
+
+}
+.user_info>ul{
+list-style: none;
+width: 50%;
+margin-left: 60px;
+position: absolute;
+line-height: 50px;
+margin-top: 75px;
+}
+
+#circle_ul>li{
+    padding-left: 35%;
+    font-size: 20px;
+}
+
+#btn{ width: 200px; height: 120px; float: right; margin: 90px 100px 0 0;}
+#btn1{
+    width: 200px;
+    height: 45px;
+    font-size: 20px;
+    border: none;
+    background: rgb(227, 233, 255);
+    margin-bottom: 30px;
+
+
+}
+
+#btn2{
+    width: 200px;
+    height: 45px;
+    font-size: 20px;
+    border: none;
+    background:rgb(227, 233, 255);
+
+}
+
+.basket_list1{
+    list-style: none;
+    padding:0;
+    line-height: 50px;
+}
+
+#list1{
+    font-size: 40px;
+    margin: 40px 0 0 120px;
+}
+
+#list2{
+    color: #C4C4C4;
+    font-size: 18px;
+    margin-left: 120px;
+    margin-bottom: 30px;
+}
+
+#basket{
+    width: 900px;
+    height: 1050px;
+    background:white;
+    margin: auto;
+    top: 30px;
+}
+#wishlist{
+    height: 850px;
+    overflow:scroll;
+    overflow:auto;
+    overflow-x: hidden;
+}
+#line_1{
+    height: 52px;
+    border-bottom: 1px solid #ccc;
+    width: 840px;
+    margin: auto;
+}
+#line_1 ul{
+    width: 900px;
+    margin: auto;
+    padding:0;
+}
+
+#line_1 ul>li{
+    float: left;
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 100px 15px 17px;
+    
+}
+
+#line_1 ul>li:nth-child(4){
+    margin:15px 30px 15px 50px;
+}
+
+#line_1 ul>li:nth-child(5){
+    margin:15px 30px 15px 100px;
+}
+
+#line_2{
+    height: 150px;
+    width: 840px;
+    margin: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+#line_2 ul>li{
+    float: left;
+    list-style: none;
+    padding: 0;
+
+}
+
+#line_2 ul>li:nth-child(1){
+    margin: 50px 85px 0 10px;
+}
+#line_2 ul>li a{
+    text-decoration: none;
+    color: black;
+}
+li a>p{
+ margin-top: 8px;
+}
+#line_2 ul>li:nth-child(2){
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+#line_2 ul>li:nth-child(3){
+    margin: 55px 20px 0 40px;
+}
+#line_2 ul>li:nth-child(4){
+    margin: 55px 20px 0 100px;
+}
+#line_2 ul>li:nth-child(5){
+    margin: 45px 20px 0 70px;
+}
+
+#deletebtn{
+    width: 80px;
+    height: 40px;
+    border:0;
+    background: rgb(227, 233, 255);
+}
+
+#line_2 ul>li img{
+    width: 80px;
+    height: 100px;
+}
+
+#buy{
+    width: 200px;
+    margin: auto;
+    padding: 0;
+    margin-top: 50px;
+}
+#buybtn{
+    padding: 0;
+    width: 200px;
+    height: 50px;
+    border:0;
+    background: rgb(227, 233, 255);
+}

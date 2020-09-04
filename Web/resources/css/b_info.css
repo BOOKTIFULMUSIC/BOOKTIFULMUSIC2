@@ -1,0 +1,278 @@
+#content{
+    width: 1120px;
+    margin: auto;
+    height: 100%;
+
+}
+#info1{
+    padding:0;
+    margin:0;
+    margin: 120px 0 40px 0;
+    width: 100%;
+    height: 410px;
+
+    border-bottom:1px solid #ccc;
+
+}
+#info1 #p1{
+    background: rgb(227, 233, 255);
+    padding: 0;
+    margin: 0;
+    padding: 5px 0 5px 20px;
+    font-size:30px;
+    font-weight: 400;
+    border-bottom: 1px solid rgb(105,140,255);
+}
+#info1 #info_img1{
+    float: left;
+    width: 220px;
+    height: 300px;
+    margin: 30px 30px 0 50px;
+}
+
+#b_title{
+    margin-top: 32px;
+    float: left;
+    width: 350px;
+    padding: 0;
+}
+
+#b_title li{
+    list-style: none;
+    line-height: 56px;
+    font-size: 20px;
+
+}
+
+#b_title li:nth-child(1){
+    font-weight: 500;
+    font-size:28px;
+
+}
+#b_title li:nth-child(2){
+    color: gray;
+    float: left;
+}
+#b_title li:nth-child(3){
+
+    color: gray;
+}
+#b_title li>a{
+    padding: 5px 10px 5px 10px;
+    border-radius: 12px;
+    background: rgb(227, 233, 255);
+    font-size:16px;
+}
+#b_title li:nth-child(5){
+    float: left;
+}
+
+li>#heart{
+    color: red;
+}
+
+li>#re{
+    color:gray;
+}
+
+#b_title li:nth-child(7){
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#b_btn{
+    float:right;
+    margin: 270px 50px 0 0;
+}
+
+#likebtn{
+    border:1px solid #ccc;
+    background: white;
+    border-radius: 10px;
+    width: 60px;
+    height: 40px;
+    color: red;
+    font-size: 24px;
+    margin-right: 12px;
+}
+#buybtn{
+    border: 0;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    background:rgb(227, 233, 255);
+    font-size: 20px;
+    margin-right: 12px;
+}
+#wishbtn{
+    border: 0;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    background:#ccc;
+    font-size: 20px;
+}
+
+#info2{
+    border-bottom:1px solid #ccc;
+    width: 100%;
+    height: 100%;
+}
+
+#info2 #p2{
+    
+    padding: 0;
+    margin: 0;
+    padding: 5px 0 5px 20px;
+    font-size: 30px;
+    font-weight: 400;
+    border-bottom: 2px solid rgb(105,140,255);
+}
+#authorinfo{
+    box-sizing: border-box;
+    width: 100%;
+    height: 300px;
+    border-bottom: 1px solid #ccc;
+}
+#authorinfo img{
+    width: 180px;
+    height: 240px;
+    margin: 28px 50px 0 50px;
+    float: left;
+}
+#bookinfo #p3{
+    
+    padding: 0;
+    margin: 0;
+    padding: 45px 0 5px 20px;
+    font-size: 30px;
+    font-weight: 400;
+    border-bottom: 2px solid rgb(105,140,255);
+}
+
+#a_detail p{
+    font-weight: 400;
+    font-size: 22px;
+    border:0;
+    margin:0;
+    padding:28px 0 0 0;
+}
+#list{
+    height: 100%;
+    padding:0;
+    border-bottom: 1px solid #ccc;
+    width: 1080px;
+    margin:auto;
+}
+#list ul{
+    padding:0;
+    margin:30px 0 30px 60px;
+}
+#list li{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#b_detail #summary{
+    height: 100%;
+    font-size: 20px;
+    line-height: 30px;
+    border:0;
+    padding:0;
+    width: 1000px;
+    margin: auto;
+    padding: 30px 0 30px 0;
+}
+
+#reviews{
+    margin: 40px 0 120px 0;
+    width: 100%;
+    height: 100%;
+    border-bottom:1px solid #ccc;
+}
+
+#reviews p{
+
+    padding: 0;
+    margin: 0;
+    padding: 5px 0 5px 20px;
+    font-size: 30px;
+    font-weight: 400;
+    border-bottom: 2px solid rgb(105,140,255);
+}
+
+#reviews #add{
+    width: 100%;
+    margin: auto;
+    height: 400px;
+    overflow:scroll;
+    overflow:auto;
+    overflow-x: hidden;
+    
+}
+
+#reviews #add ul{
+    height: 100px;
+    margin:auto;
+    padding:0;
+    margin: 20px 30px 20px 30px;
+    border-bottom: 1px solid #ccc;
+
+}
+#reviews #add ul li{
+    list-style: none;
+    float: left;
+    line-height: 28px;
+   
+}
+#reviews #add ul li:nth-child(1){
+    width: 10%;
+}
+#reviews #add ul li:nth-child(2){
+    width: 80%;
+}
+
+#reviews #add li p{
+    font-size: 16px;
+    border: 0;
+    background: white;
+    padding:0;
+}
+#reviews #add img{
+    width: 70px;
+    height: 70px;
+    margin-top: 5px;
+}
+
+#user_review{
+    height: 150px;
+    border-top: 1px solid #ccc;
+    width: 1080px;
+    margin: auto;
+
+}
+
+#user_review img{
+    width: 100px;
+    height: 100px;
+    padding: 22px 20px 0 20px;
+    float: left;
+}
+
+#user_review #review_text{
+    width: 800px;
+    height: 100px;
+    margin: 20px 20px 0 0;
+    float: left;
+    border: 1px solid #ccc;
+}
+
+#user_review #review_btn{
+    width: 100px;
+    height: 105px;
+    padding: 0;
+    margin: 20px 0 0 0;
+    border: 0;
+    background: rgb(227, 233, 255);
+    font-size: 20px;
+}

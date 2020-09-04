@@ -1,0 +1,87 @@
+@charset="UTF-8";
+body{ margin:0;}
+.content{ width: 100%; height: 1450px; margin: auto;}
+#section{ width:1200px;margin: auto;}
+
+#imgbox { width:100%; margin-top: 60px;}
+#imgbox img{ width: 200px; height: 200px; margin: 20px 15px 20px 10px; float: left; position: relative;cursor:pointer;}
+#imgbox img:hover{ color: black; opacity: 0.3; }
+#imgbox img:hover+p{ display: block; font-weight: 900;position: absolute;}
+#m_img1 p{ padding: 85px 0 0 20px; }
+#m_img2 p{ padding: 85px 0 0 260px; }
+#m_img3 p{ padding: 85px 0 0 500px; }
+#m_img4 p{ padding: 85px 0 0 710px; }
+#m_img5 p{ padding: 85px 0 0 930px; }
+
+#b_img1 p{ padding: 350px 0 0 20px; }
+#b_img2 p{ padding: 350px 0 0 255px; }
+#b_img3 p{ padding: 350px 0 0 455px; }
+#b_img4 p{ padding: 350px 0 0 710px; }
+#b_img5 p{ padding: 350px 0 0 930px; }
+
+#imgbox li p{ display: none; font-size: 28px; }
+#imgbox a{ color: black;}
+#m_img{ list-style-type: none;}
+
+#b_img{ list-style-type: none; }
+#b_img img{ height: 270px;}
+.content p{margin:20px 0 10px 40px;
+           font-size: 20px;}
+#book_new_info{margin:60px 15px 0 15px; 
+               width: 820px;  
+               height: 350px; 
+               border: 1px solid rgb(215, 215, 215);
+               float: left;}
+#book_keyword_info{margin:60px 15px 0 0; 
+                   width: 330px; 
+                   height: 350px; 
+                   border: 1px solid rgb(215, 215, 215);
+                   float: left; }
+
+#book_keyword_info p{
+        font-size: 16px;
+}
+#book_keyword_info b{ font-size: 22px; margin-right: 20px;}
+
+
+#new_book_list li{ float: left; list-style-type: none; margin: 5px 18px 0 18px; width: 140px;cursor:pointer;}
+#new_book_list li>a{  text-decoration: none; color: black;}
+#new_book_list li>a>p{ width: 140px; height: 50px;  font-size: 14px; margin: 0; text-align: center; font-weight: 800;}
+#new_book_list img{ width: 140px; height: 190px; border: 1px solid rgb(215, 215, 215)}
+#new_book_list img:hover{ width: 140px; height: 190px; opacity: 0.7;}
+#next{ background: none; border: 0; margin-top: 100px; margin-left: 10px; font-size: 20px;}
+#back{ background: none; border: 0; margin-top: 100px; margin-right: 10px; margin-left: 30px; font-size: 20px; float: left;}
+#b_page2{ display: none;}
+
+#m_page2{ display: none;}
+#new_book_list2 li{ float: left; list-style-type: none; margin: 5px 18px 0 18px; width: 140px;cursor:pointer;}
+#new_book_list2 li>a{  text-decoration: none; color: black;}
+#new_book_list2 li>a>p{ width: 140px; height: 50px;  font-size: 14px; margin: 0; text-align: center; font-weight: 800;}
+#new_book_list2 img{ width: 140px; height: 190px; border: 1px solid rgb(215, 215, 215)}
+#new_book_list2 img:hover{ width: 140px; height: 190px; opacity: 0.7;}
+
+
+#keyword_list li{width: 210px; list-style-type: none; margin: 20px 0 0 10px; padding:5px 0 5px 10px;cursor:pointer; background:rgb(245, 245, 245);border-radius: 15px;}
+#keyword_list li:hover{background: lavender; border-radius: 15px;}
+#keyword_list li a{ text-decoration: none; margin: -5px 0 0 30px; color: black;}
+
+
+
+#music_new_info{margin:30px 15px 0 15px; 
+                width: 820px;  
+                height: 350px; 
+                border: 1px solid rgb(215, 215, 215);
+                float: left;}
+#music_keyword_info{margin:30px 15px 0 0; 
+                    width: 330px; 
+                    height: 350px; 
+                    border: 1px solid rgb(215, 215, 215);
+                    float: left; }
+
+#music_keyword_info p{font-size: 16px;}
+#music_keyword_info b{font-size: 22px; margin-right: 20px;}
+#new_music_list li>a{  text-decoration: none; color: black;}
+#new_music_list li>a>p{font-size: 14px; margin: 10px 5px 0 5px; text-align: center; font-weight: 800;}
+#new_music_list li{ float: left; list-style-type: none; margin: 25px 18px 10px 18px; width: 140px;cursor:pointer;}                   
+#new_music_list img{ width: 140px; height: 140px; border: 1px solid rgb(215, 215, 215)}
+#new_music_list img:hover{ width: 140px; height: 140px; opacity: 0.7;}

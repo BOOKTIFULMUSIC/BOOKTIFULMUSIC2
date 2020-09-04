@@ -1,0 +1,257 @@
+#content{
+    height: 1900px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+#sub_menu{ height: 140px; margin-top: 60px;}
+#sub_menu a {
+	text-decoration: none;
+	color: black;
+}
+
+#sub_menu>ul{
+    width: 100%;
+	padding: 0;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+#sub_menu>ul>li {
+	display: inline-block;
+	box-sizing: border-box;
+	margin-right: 40px;
+}
+#sub_menu>ul li:nth-child(1){
+	font-size: 20px
+}
+#sub_menu>ul li:nth-child(2){
+	font-size: 20px;
+	
+}
+#sub_menu>ul li:nth-child(3){
+    font-size: 48px;
+    font-weight: 400px;
+}
+#sub_menu>ul li:nth-child(4){
+	font-size: 20px;
+	margin-right: 0;
+}
+
+#con1{
+    margin: auto;  
+    background: rgb(250, 250, 255); 
+    height: 1600px; 
+    width: 1120px; 
+    position: relative;
+    
+    }
+
+.user_info{
+height: 300px;
+width: 100%;
+border-bottom: 1px solid gray;
+
+
+}
+
+.user_info>#photo{
+width:180px;
+height:180px;
+border-radius:50%;
+background: #C4C4C4;
+margin-top:60px;
+margin-left: 100px;
+position: absolute;
+
+
+}
+.user_info>ul{
+list-style: none;
+width: 50%;
+margin-left: 60px;
+position: absolute;
+line-height: 50px;
+margin-top: 75px;
+}
+
+#circle_ul>li{
+    padding-left: 35%;
+    font-size: 20px;
+}
+
+#btn{ width: 200px; height: 120px; float: right; margin: 90px 100px 0 0;}
+#btn1{
+    width: 200px;
+    height: 45px;
+    font-size: 20px;
+    border: none;
+    background: rgb(227, 233, 255);
+    margin-bottom: 30px;
+
+
+}
+
+#btn2{
+    width: 200px;
+    height: 45px;
+    font-size: 20px;
+    border: none;
+    background:rgb(227, 233, 255);
+
+}
+
+.purchase_list{
+    list-style: none;
+    padding:0;
+    line-height: 50px;
+}
+
+#purchase1{
+    font-size: 40px;
+    margin: 40px 0 0 120px;
+}
+
+#purchase2{
+    color: #C4C4C4;
+    font-size: 18px;
+    margin-left: 120px;
+    margin-bottom: 30px;
+}
+
+.book_purchase{
+    width: 900px;
+    height: 450px;
+    background:white;
+    margin: auto;
+    top: 30px;
+}
+#book{
+    height: 52px;
+    border-bottom: 1px solid #ccc;
+    width: 840px;
+    margin: auto;
+}
+#book ul{
+    width: 900px;
+    margin: auto;
+    padding:0;
+}
+
+#book ul>li{
+    float: left;
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 60px 15px 17px;
+}
+
+#list{
+    height: 400px;
+    overflow-x: hidden;
+    overflow:scroll;
+    overflow:auto;
+}
+#book_info{
+    height: 60px;
+    width: 840px;
+    margin: auto;
+    border-bottom: 1px solid #ccc;
+}
+#book_info ul>li{
+    float: left;
+    list-style: none;
+    padding: 0;
+    width: 100px;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+#book_info ul>li:nth-child(1){
+    margin-left: -40px;
+}
+#book_info ul>li:nth-child(2){
+    margin-left: 35px;
+}
+#book_info ul>li:nth-child(3){
+    width: 190px;
+}
+#book_info ul>li:nth-child(4){
+    margin-left: 20px;
+}
+#book_info ul>li:nth-child(5){
+    margin-left: 67px;
+}
+#book_info ul>li:nth-child(6){
+    margin-top:2px;
+}
+li #btn3{
+    width: 100px;
+    height: 40px;
+    border:0;
+    margin-left: 12px;
+    background:rgb(227, 233, 255) ;
+}
+
+.music_purchase{
+    width: 900px;
+    height: 450px;
+    background:white;
+    margin: auto;
+    margin-top: 60px;
+}
+
+#music{
+    height: 52px;
+    border-bottom: 1px solid #ccc;
+    width: 840px;
+    margin: auto;
+}
+#music ul{
+    width: 900px;
+    margin: auto;
+    padding:0;
+}
+
+#music ul>li{
+    float: left;
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0 15px 0;
+}
+
+#music ul>li:nth-child(1){
+    margin-left: 70px;
+    margin-right: 120px;
+}
+#music ul>li:nth-child(2){
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#music ul>li:nth-child(3){
+    margin-left: 120px;
+    margin-right: 80px;
+}
+#list2{
+    height: 400px;
+    overflow-x: hidden;
+    overflow:scroll;
+    overflow:auto;
+}
+
+#list2 li{
+    float: left;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin: 3px 0 0 -25px;
+}
+#music_info{
+    height: 52px;
+    width: 840px;
+    margin:auto;
+    border-bottom: 1px solid #ccc;
+    padding: 0;
+}

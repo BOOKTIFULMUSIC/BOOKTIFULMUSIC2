@@ -1,0 +1,23 @@
+
+body{margin:0;}
+.content-wrapper{ width: 100%; height: 900px; margin: auto; box-sizing: border-box;}
+#content{ width: 1200px; margin: auto;}
+#page_logo{ color: rgb(227, 233, 255); margin-top:145px; text-align: center; font-size: 40px;}
+#greeting{ color: rgb(150, 150, 150); text-align: center; font-size: 20px;}
+#greeting b{ color: rgb(227, 233, 255);}
+#login{ text-align: center; width: 430px; margin: auto; margin-top: 80px;}
+#id_pwd{  float: left; width: 300px; margin-right: 30px;}
+#id_pwd #userId{ width: 300px; height: 45px; border:0; border-bottom: 1px solid black;margin-bottom: 20px;}
+#id_pwd #userPwd{ width: 300px; height: 45px; border:0; border-bottom: 1px solid black;}
+#login_btn{ background: rgb(227, 233, 255);width: 100px; height: 120px; border: 0;}
+
+#mini_menu{width: 100%; height: 40px; margin: 40px 0 180px 0;}
+#find_join{padding: 0; width: 260px; margin: auto;}
+#find_join li{ list-style-type: none; float: left;}
+#find_join li a{ text-decoration: none; color: rgb(150, 150, 150)}
+
+#mini-footer{width: 100%; height: 80px; }
+#footer_menu{ width: 400px; height: 40px; padding: 0; margin: auto;}
+#footer_menu>li{ float: left; list-style-type: none; text-align: center;}
+#footer_menu li a{ text-decoration: none; color: black;}
+#mini-footer p {text-align:center ; }

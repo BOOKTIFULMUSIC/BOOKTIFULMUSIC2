@@ -1,0 +1,143 @@
+body{margin:0;}
+
+.content{
+    height: 100%;
+    width: 1120px;
+	margin: auto;
+	padding-top: 50px;
+    }
+
+.submenu ul{
+    display: inline-block;
+    width:80%;
+}
+#list>ul{
+    border-right: 1px solid #ccc;
+    list-style-type: none;
+}
+#sub_menu{ height: 140px; margin-top: 60px;}
+#sub_menu a{
+	text-decoration: none;
+	color: black;
+}
+
+#sub_menu>ul {
+	width: 100%;
+	padding: 0;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+#sub_menu>ul>li {
+	display: inline-block;
+	box-sizing: border-box;
+	margin-right: 40px;
+}
+
+#sub_menu>ul li:nth-child(1){
+	font-size: 20px;
+}
+#sub_menu>ul li:nth-child(2){
+	font-size: 48px;
+	font-weight: 400px;
+}
+#sub_menu>ul li:nth-child(3){
+	font-size: 20px;
+	margin-right: 0;
+}
+#title{
+    border-top:1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    width: 1120px;
+    height: 50px;
+    margin: auto;
+}
+#title p{
+    text-align: center;
+    margin-top: 13px;
+}
+#book ul{ width: 1120px; margin: 0; padding: 0;}
+#book li{ list-style: none; height: 220px; border-bottom: 1px solid #ccc;}
+dl img{ width: 130px; height: 180px; float: left; margin: 10px 20px 0 20px;}
+#book #list1{ float: left; width: 50%;}
+#book dl #text1,#text2{ float: left; margin-right: 10px;}
+#book dl #text1,#text2,#text3{ color: gray;}
+#book dl #like{ float: left; margin-right: 20px;}
+#book dl a{ font-size: 22px; text-decoration: none; color: black;}
+#book dl dt{ margin-bottom: 18px;}
+#book #btn{ float: right; width: 250px; margin-right: 20px; margin-top:140px;font-size: 20px;}
+
+#likebtn{
+    border:1px solid #ccc;
+    background: white;
+    border-radius: 10px;
+    width: 60px;
+    height: 40px;
+    color: red;
+    font-size: 24px;
+    margin-right: 12px;
+    float:left;
+}
+#wish{ width: 150px; height: 40px; border: 0;border-radius: 12px;  background: rgb(227, 233, 255); font-size: 20px;}
+
+
+/* 리뷰순 상단 구분 */
+
+
+/* 하단 검색창 */
+#total {
+	margin: auto;
+	margin-top: 80px;
+	height: 100px;
+	
+}
+
+/*페이지 이동*/
+#numberList {
+	width: 250px;
+	height: 30px;
+	margin: auto;
+	text-align:center;
+}
+button{
+	border:0;
+	background:white;
+	font-weight:800;
+}
+#numberList>ul {
+	padding: 0;
+}
+
+#numberList a{
+	text-decoration: none;
+	color: black;
+}
+
+.numberList_page {
+	width: 30px;
+	height: 30px;
+	list-style-type: none;
+	position: relative;
+	float: left;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 800;
+}
+
+/*검색바*/
+#musicLike_search {
+	width: 400px;
+	height: 30px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.search_tool {
+    height: 30px;
+    width: 80px;
+    margin-top: 3px;
+
+}
+
+.searchinput{ width: 225px; height: 30px;}

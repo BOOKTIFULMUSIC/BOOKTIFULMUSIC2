@@ -1,0 +1,196 @@
+.content{ /*전체 구역*/
+    width: 1120px;
+    margin: auto;
+    
+}
+
+
+#section{ /*여백 제외 구역*/
+    /* position: relative; */
+    width: 1120px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom : 100px;
+    box-sizing: border-box;
+}
+
+#notice_menu{margin: auto; border-top:100px;}
+
+
+.men_index{width:200px; height:200px; margin: auto;}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+a>label:hover{
+    cursor: pointer;
+}
+
+
+
+#child_4, #child_1{
+    margin-top: -12px;
+    margin-left: 8px;
+}
+
+#child_2{
+    margin-left: 12px;
+}
+#child_3{
+    margin-left: 8px;
+}
+
+   
+
+#menu_name{
+    margin: auto;
+}
+
+#title{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top : 50px;
+}
+
+
+
+/* 공지사항 항목칸 */
+.list_head>th{
+    background: rgb(227, 233, 255);
+    padding:5px 0 5px 0;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+}
+
+
+/* 리스트 항목 전체 테이블 설정 */
+.notice_list{
+    
+    width: 1120px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+/* thead{z-index: 10;} */
+
+
+
+/* 첫줄(head)부분 설정 */
+.list_head>th:nth-child(1){
+    width : 5%
+}
+
+.list_head>th:nth-child(2){
+    width : 70%;
+}
+
+.list_head>th:nth-child(3){
+    width : 10%;
+}
+
+.list_head>th:nth-child(4){
+    width : 15%;
+}
+
+
+/* body부분 list 설정 */
+.subject_content{
+    text-decoration: none;
+}
+
+.list_number, .list_name, .list_time{
+    text-align: center;
+}
+
+.list_subject{
+    padding-left: 30px;    
+}
+
+
+/* body부분 공통 row설정 */
+.list_body>td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 0.5px solid black;
+    height: 30px;
+    
+}
+
+
+
+
+/* 글쓰기 버튼 */
+.write_btn{
+    width:75%;
+    margin: auto;
+}
+
+#btn1{
+    float: right;
+    margin-right: 10px;
+}
+
+
+
+/* 하단 숫자리스트 및 검색창 */
+#numberList{
+    width: 500px;
+    height: 30px;
+    /* border: 1px solid black; */
+    margin: auto;
+ 	text-align: center;
+}
+
+#numberList a{
+    text-decoration: none;
+    color: black;
+}
+
+.numberList_page{
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid black; */
+    list-style-type: none;
+    position: relative;
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+#best_foot{
+    height: 150px;
+    margin-top: 120px;
+}
+
+#book_search{
+    width: 450px;
+    height: 30px;
+    /* border: 1px solid black; */
+    margin: auto;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    box-sizing: border-box;
+}
+
+#search_tool{
+    box-sizing: border-box;
+    float: left;
+    position: absolute;
+    height: 30px;
+}
+#select_tool{height: 30px;}
+#text_tool{height: 30px; width: 250px;}
+#confirm_tool{height: 30px;}
+
+
+.footer{
+    margin-top:60px;
+}
